@@ -64,3 +64,8 @@ footer a.type--fine-print.no-margin {
     margin-left: 0 !important;
 }
 
+/* 404 */
+p.lead+a:not(.btn) {
+    font-size:1em;
+}
+
