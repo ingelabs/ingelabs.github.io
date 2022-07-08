@@ -60,8 +60,22 @@ span a.type--fine-print {
 #logo-knx {
     margin-right: 15px;
 }
-footer a.type--fine-print.no-margin {
-    margin-left: 0 !important;
+
+footer .list-inline {
+    display: block;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+}
+footer .list-inline li:not(:last-child) {
+    margin-right: 1.1em;
+}
+footer .footer-links a:hover {
+    text-decoration: underline !important;
+}
+@media all and (max-width: 767px) {
+    footer .footer-links {
+        padding-bottom: 2.5em;
+    }
 }
 
 /* 404 */
@@ -69,3 +83,22 @@ p.lead+a:not(.btn) {
     font-size:1em;
 }
 
+/* Legal */
+p {
+    margin-bottom: 1.3em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.6em;
+    padding-top: 0.4em;
+}
+
+ul.bullets {
+    list-style: outside;
+    padding-left: 2em;
+}
+
+ul.bullets li {
+    padding-left: 0.6em;
+}

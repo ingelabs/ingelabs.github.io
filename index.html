@@ -92,25 +92,27 @@
             <footer class="footer-7 text-center-xs bg--dark">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6">
-                            <span class="type--fine-print">&copy;<span class="update-year"></span> <b>INGELABS S.L.</b> All rights reserved</span>
-                            <br>
-                            <a class="type--fine-print no-margin" href="files/Ingelabs_calidad_es.pdf">Política de calidad</a>
-                            <br>
-                            <script>
-                                (function(d, lhs, rhs) {
-                                    d.write('<a class="type--fine-print no-margin" href="mail');
-                                    d.write('to:' + lhs + '@');
-                                    d.write(rhs + '">' + lhs + '@');
-                                    d.write(rhs + '</a>');
-                                })(document, 'info','ingelabs.com');
-                            </script>
-                            <!--
-                            <br>
-                            <a class="type--fine-print no-margin" href="informacion-legal.html">Legal terms</a>
-                            <a class="type--fine-print" href="politica-calidad.html">Quality policy</a>
-                            <a class="type--fine-print" href="contactar.html">Contact us</a>
-                            -->
+                        <div class="col-sm-6 footer-links type--fine-print">
+                            <div>
+                                &copy;<span class="update-year"></span> <b>INGELABS S.L.</b> Todos los derechos reservados
+                            </div>
+                            <div>
+                                <ul class="list-inline">
+                                    <li><a href="legal.html">Aviso legal</a></li>
+                                    <li class="hidden-xs">|</li>
+                                    <li><a href="files/Ingelabs_calidad_es.pdf">Política de calidad</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <script>
+                                    (function(d, lhs, rhs) {
+                                        d.write('<a href="mail');
+                                        d.write('to:' + lhs + '@');
+                                        d.write(rhs + '">' + lhs + '@');
+                                        d.write(rhs + '</a>');
+                                    })(document, 'info','ingelabs.com');
+                                </script>
+                            </div>
                         </div>
                         <div class="col-sm-6 text-right text-center-xs">
                             <a href="files/Ingelabs_EIBT.pdf"><img id="logo-eibt" class="footer-logos" src="img/EIBT_small.png" alt="EIBT" widht="83" height="40"></a>
