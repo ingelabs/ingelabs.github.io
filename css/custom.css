@@ -102,3 +102,9 @@ ul.bullets {
 ul.bullets li {
     padding-left: 0.6em;
 }
+
+.updated {
+    font-size: small;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
